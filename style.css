@@ -14,7 +14,7 @@
     --shadow:rgba(3,46,87,0.2);
 }
 body{
-    background: url(https://gifdb.com/images/thumbnail/pastel-aesthetic-clouds-uny5xc9381nwqxkw.gif);
+    background: url(https://media.tenor.com/kbpSdRHcnWUAAAAd/clouds.gif);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -37,17 +37,14 @@ body{
     box-shadow: 0 1.8em 3.7em var(--shadow);
     text-align: center;
 }
+
 @media screen and (max-width:300px){
     body{
         background-repeat: repeat;
-
     }
     .wrapper{
-        width: 30vh;
-
-    }
-    
-    
+        width: 59vh;
+    }  
 }
 
 @media screen and (max-width:600px){
@@ -57,7 +54,6 @@ body{
     }
     .wrapper{
         width: 59vh;
-
     }
     .row{
         flex-direction: row;
@@ -67,13 +63,14 @@ body{
 @media screen and (max-width:800px){
     body{
         background-repeat: repeat;
-
+    }
+    .wrapper{
+        width: 59vh;
     }
 }
 @media screen and (max-width:1110px){
     body{
         background-repeat: repeat;
-
     }
 }
 
